@@ -1,0 +1,42 @@
+html, 
+body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+}
+
+/* cover */
+#cover {
+    background: #222 url('images/computer.jpeg') no-repeat;
+    background-size: cover;
+    color: #2285ad;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    }
+#cover::before{
+    
+}
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#portfolio{
+    color: #2285ad;
+}
+
+#about {
+    background: url('images/tiles_background.jpeg') no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.8rem;
+}
