@@ -18,92 +18,119 @@
 </head>
 
 <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Alicja Texler</a>
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Alicja Texler</a>
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-  </button>
+        </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto pull-sm-right">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    <section id="cover">
-              <div id="cover-caption">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto pull-sm-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
+    <section id="welcome-section">
+              <div id="welcome-caption">
                 <div class="container">
-                    <div class="col-sm-12 offset-sm-1">
-                        <h1 class="display-4">Alicja Texler Portfolio page</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia in molestiae, ducimus eum excepturi quas voluptate cupiditate, blanditiis doloremque, earum totam. Consequuntur perferendis ullam voluptatibus porro! Autem neque illum at!</p>
+                    <div class="col-sm-12">
+                        <h1>ALICJA TEXLER</h1>
+                        <hr>
+                        <h2>Software Developer</h2>
                     </div>
                 </div>
             </div>
     </section>
-    <section id="portfolio">
+    <section id="projects">
         <div class="section-content">
             <div class="container">
-                <h2>Portfolio</h2>
-                <div class="row">
-                    <div class="column-sm-12">
-                        <div class="card-group">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title"> Game </h4>
-                                </div>
-                                <img src="images/islandgame.jpg" alt="game">
-                                <div class="card-body">
-                                    <p>Open-world game developed in Unity</p>
-                                    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title"> Web App </h4>
-                                </div>
-                                <img src="images/prodigy.png" alt="prodigy">
-                                <div class="card-body">
-                                    <p>Online store demo developed in Ruby on Rails</p>
-                                    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title"> Place Holder </h4>
-                                </div>
-                                <img src="images/graph.gif" alt="graph">
-                                <div class="card-body">
-                                    <p>Web app in Python presenting graphs algorithms</p>
-                                    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
-                                </div>
-                            </div>
-                        </div><!-- card group div-->
+                <h2>Projects</h2>
+                <div class="card-deck">
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <h4 class="card-title"> Game Prototype </h4>
+                        </div>
+                        <img src="images/islandgame.jpg" alt="game">
+                        <div class="card-body">
+                            <p>Open-world game developed in Unity</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="card btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+                        </div>
                     </div>
-                </div> <!-- row div -->
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <h4 class="card-title">Store Web App </h4>
+                        </div>
+                        <img src="images/prodigy.png" alt="prodigy">
+                        <div class="card-body">
+                            <p>Online store demo developed in Ruby on Rails</p>
+                            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <h4 class="card-title"> Python Web App </h4>
+                        </div>
+                        <img src="images/graph.gif" alt="graph">
+                        <div class="card-body">
+                            <p>Presentation of graph constructing algorithms</p>
+                            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <h4 class="card-title"> C++ with SDL2 </h4>
+                        </div>
+                        <img src="images/placeholder.png" alt="graph">
+                        <div class="card-body">
+                            <p>9'mens Morris game</p>
+                            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="card border-info mb-3">
+                        <div class="card-header">
+                            <h4 class="card-title"> Placeholder </h4>
+                        </div>
+                        <img src="images/placeholder.png" alt="graph">
+                        <div class="card-body">
+                            <p>Something developed in something</p>
+                            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+                        </div>
+                    </div>
+                </div><!-- card group div-->
             </div> <!-- container div-->
         </div>
     </section>
   <section id="about">
       <div class="section-content">
-          <div class="container">
+          <div class="container about">
               <div class="col-md-6">
                   <div class="about-text">
                       <h3>About Me</h3>
-                      <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam, excepturi sint magnam, corrupti hic ipsum doloremque numquam maiores quia voluptatibus quo cumque. Enim libero pariatur velit, tenetur voluptatem facere!</p>
-                      <h5>Follow me on the web</h5>
+                      <p class="lead"> I'm working on my Masters Degree in Computer Science at Brooklyn College. My main interest include machine learning and game development.</p>
                       <a href="" class="btn btn-sm btn-outline-info">GitHub</a>
                       <a href="" class="btn btn-sm btn-outline-info">Facebook</a>
                       <a href="" class="btn btn-sm btn-outline-info">LinkedIn</a>
                   </div>
+                  
+              </div>
+              <div class="col-md-6">
+                  <img class="about-image" src="images/alicja.jpg" alt="image of author">
               </div>
           </div>
       </div>
