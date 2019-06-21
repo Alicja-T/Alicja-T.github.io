@@ -41,6 +41,9 @@ h1, h2 {
     text-transform: uppercase;
     font-weight: 400;
 }
+a:hover, a:link, a:active, a:visited {
+    text-decoration: none;
+}
 
 .section-content {
     padding: 5rem 0;
